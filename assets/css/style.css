@@ -1,12 +1,6 @@
-.index, .contactme{
-    height:100%;
-}
-
 body{
     background-image: url("../images/image1.png");
     padding:0px;
-    position:relative;
-    height:100%;
 }
 #name{
     padding:27px;
@@ -66,20 +60,12 @@ header{
     font-size: 18px;
     color:#303030;
 }
-.footershort{
+footer{
     padding:35px;
     border-top:14px solid #0c1c52;
     background:rgb(8, 120, 180);
-    position:absolute;
+    position:fixed;
     bottom:0px;
-    width:100%;
-}
-.footerlong{
-    padding:35px;
-    border-top:14px solid #0c1c52;
-    background:rgb(8, 120, 180);
-    position:absolute;
-    bottom:-74px;
     width:100%;
 }
 #links{
